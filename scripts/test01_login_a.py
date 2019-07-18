@@ -21,7 +21,7 @@ def get_data():
 class TestLogin():
     # 初始化
     def setup_class(self):
-        # 获取PageLogin对象
+        # 获取PageLogin  对象
         self.login = PageIn().page_get_PageLogin()
         # 点击我
         self.login.page_click_me()
