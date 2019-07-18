@@ -25,7 +25,7 @@ class TestLogin():
         self.login = PageIn().page_get_PageLogin()
         # 点击我
         self.login.page_click_me()
-        # 点击已有账号去登录
+        # 点击已有账号去  登录
         self.login.page_click_account_link()
 
     # 结束
