@@ -30,7 +30,7 @@ class TestLogin():
 
     # 结束
     def teardown_class(self):
-        # 关闭driver
+        # 关闭  driver
         GetDriver().quit_driver()
 
     # 登录测试方法
